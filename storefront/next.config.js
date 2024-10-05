@@ -19,6 +19,10 @@ const nextConfig = {
       },
       {
         protocol: "https",
+        hostname: "backend-production-aa30.up.railway.app",
+      },
+      {
+        protocol: "https",
         hostname: "medusa-server-testing.s3.us-east-1.amazonaws.com",
       },
     ],

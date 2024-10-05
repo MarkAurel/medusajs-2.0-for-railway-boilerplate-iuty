@@ -10,7 +10,7 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Hello, World! Baby!
+            Ecommerce platform
           </Heading>
           <Heading
             level="h2"
