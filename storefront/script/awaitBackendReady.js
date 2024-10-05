@@ -1,5 +1,3 @@
-const nodefetch = require('node-fetch');
-
 let startTime = Date.now();
 
 const checkBackend = () => {
@@ -13,7 +11,7 @@ const checkBackend = () => {
     process.exit(1); // Exit script with error
   }
 
-  nodefetch(url)
+  fetch(url)
     .then((res) => {
       if (res.status === 200) {
         console.log('Backend is ready!');
